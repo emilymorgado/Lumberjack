@@ -12,7 +12,7 @@ module.exports = (logSources, printer) => {
 
     for(let log in sortedLogs) {
         let logEntry = sortedLogs[log]
-        printer.print(logEntry)
-        printer.done()        
+        printer.print(logEntry)    
     }
+    printer.done()
 }
